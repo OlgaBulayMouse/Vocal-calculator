@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 5px 14px;
+    max-width: 1000px;
+}
+
+.circle-button {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    background-color: palevioletred;
+    box-shadow: 4px 10px 20px palevioletred;
+    border-radius: 50%;
+    border: 10px solid fuchsia;
+    transition: 0.3s;
+}
+
+.circle-button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}   
+
+.list {
+    padding: 20px;
+    list-style: none;
+    
+}
+
+li {
+    margin-top: 10px;
+    padding: 15px;
+    background: palevioletred;
+    font-size:x-large;
+    font-weight:bold;
+    color:whitesmoke;
+}
