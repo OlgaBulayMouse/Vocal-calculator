@@ -52,3 +52,16 @@ li {
     font-weight:bold;
     color:whitesmoke;
 }
+
+.listening {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
